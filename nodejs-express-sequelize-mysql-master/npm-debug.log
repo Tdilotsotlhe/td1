@@ -1,0 +1,1202 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'node',
+1 verbose cli   '14' ]
+2 info using npm@3.3.12
+3 info using node@v5.5.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData node
+8 silly fetchPackageMetaData 14
+9 silly fetchNamedPackageData node
+10 silly mapToRegistry name node
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry uri https://registry.npmjs.org/node
+14 silly fetchNamedPackageData 14
+15 silly mapToRegistry name 14
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry https://registry.npmjs.org/
+18 silly mapToRegistry uri https://registry.npmjs.org/14
+19 verbose request uri https://registry.npmjs.org/node
+20 verbose request no auth needed
+21 info attempt registry request try #1 at 3:31:20 PM
+22 verbose request id ed38d81fa85f9dce
+23 http request GET https://registry.npmjs.org/node
+24 verbose request uri https://registry.npmjs.org/14
+25 verbose request no auth needed
+26 info attempt registry request try #1 at 3:31:20 PM
+27 http request GET https://registry.npmjs.org/14
+28 http 200 https://registry.npmjs.org/node
+29 verbose headers { date: 'Sat, 14 Aug 2021 13:31:19 GMT',
+29 verbose headers   'content-type': 'application/json',
+29 verbose headers   'transfer-encoding': 'chunked',
+29 verbose headers   connection: 'keep-alive',
+29 verbose headers   'cf-ray': '67ea8af56d7af47e-JNB',
+29 verbose headers   age: '146',
+29 verbose headers   'cache-control': 'public, max-age=300',
+29 verbose headers   etag: 'W/"29fa8021f6b59637117ad62c3b3e502b"',
+29 verbose headers   'last-modified': 'Wed, 04 Aug 2021 03:16:57 GMT',
+29 verbose headers   vary: 'accept-encoding, accept',
+29 verbose headers   'cf-cache-status': 'HIT',
+29 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+29 verbose headers   'x-amz-replication-status': 'COMPLETED',
+29 verbose headers   server: 'cloudflare',
+29 verbose headers   'content-encoding': 'gzip' }
+30 silly get cb [ 200,
+30 silly get   { date: 'Sat, 14 Aug 2021 13:31:19 GMT',
+30 silly get     'content-type': 'application/json',
+30 silly get     'transfer-encoding': 'chunked',
+30 silly get     connection: 'keep-alive',
+30 silly get     'cf-ray': '67ea8af56d7af47e-JNB',
+30 silly get     age: '146',
+30 silly get     'cache-control': 'public, max-age=300',
+30 silly get     etag: 'W/"29fa8021f6b59637117ad62c3b3e502b"',
+30 silly get     'last-modified': 'Wed, 04 Aug 2021 03:16:57 GMT',
+30 silly get     vary: 'accept-encoding, accept',
+30 silly get     'cf-cache-status': 'HIT',
+30 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+30 silly get     'x-amz-replication-status': 'COMPLETED',
+30 silly get     server: 'cloudflare',
+30 silly get     'content-encoding': 'gzip' } ]
+31 verbose get saving node to C:\Users\Tshiamo.WIN-P3T4VPK3U1I\AppData\Roaming\npm-cache\registry.npmjs.org\node\.cache.json
+32 http 200 https://registry.npmjs.org/14
+33 verbose headers { date: 'Sat, 14 Aug 2021 13:31:20 GMT',
+33 verbose headers   'content-type': 'application/json; charset=UTF-8',
+33 verbose headers   'transfer-encoding': 'chunked',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'cf-ray': '67ea8af57f1e0536-JNB',
+33 verbose headers   'cache-control': 'public, max-age=300',
+33 verbose headers   etag: 'W/"e3bf1766af3f3ef4b88baa984ab29626"',
+33 verbose headers   'last-modified': 'Sat, 26 May 2018 14:08:40 GMT',
+33 verbose headers   vary: 'accept-encoding, accept',
+33 verbose headers   'cf-cache-status': 'MISS',
+33 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+33 verbose headers   server: 'cloudflare',
+33 verbose headers   'content-encoding': 'gzip' }
+34 silly get cb [ 200,
+34 silly get   { date: 'Sat, 14 Aug 2021 13:31:20 GMT',
+34 silly get     'content-type': 'application/json; charset=UTF-8',
+34 silly get     'transfer-encoding': 'chunked',
+34 silly get     connection: 'keep-alive',
+34 silly get     'cf-ray': '67ea8af57f1e0536-JNB',
+34 silly get     'cache-control': 'public, max-age=300',
+34 silly get     etag: 'W/"e3bf1766af3f3ef4b88baa984ab29626"',
+34 silly get     'last-modified': 'Sat, 26 May 2018 14:08:40 GMT',
+34 silly get     vary: 'accept-encoding, accept',
+34 silly get     'cf-cache-status': 'MISS',
+34 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+34 silly get     server: 'cloudflare',
+34 silly get     'content-encoding': 'gzip' } ]
+35 verbose get saving 14 to C:\Users\Tshiamo.WIN-P3T4VPK3U1I\AppData\Roaming\npm-cache\registry.npmjs.org\14\.cache.json
+36 silly install normalizeTree
+37 silly loadCurrentTree Finishing
+38 silly loadIdealTree Starting
+39 silly install loadIdealTree
+40 silly cloneCurrentTree Starting
+41 silly install cloneCurrentTreeToIdealTree
+42 silly cloneCurrentTree Finishing
+43 silly loadShrinkwrap Starting
+44 silly install loadShrinkwrap
+45 silly loadShrinkwrap Finishing
+46 silly loadAllDepsIntoIdealTree Starting
+47 silly install loadAllDepsIntoIdealTree
+48 warn engine node@16.6.1: wanted: {"npm":">=5.0.0"} (current: {"node":"5.5.0","npm":"3.3.12"})
+49 silly resolveWithNewModule node@16.6.1 checking installable status
+50 warn engine node@16.6.1: wanted: {"npm":">=5.0.0"} (current: {"node":"5.5.0","npm":"3.3.12"})
+51 silly cache add args [ 'node', null ]
+52 verbose cache add spec node
+53 silly resolveWithNewModule 14@3.1.6 checking installable status
+54 silly cache add args [ '14', null ]
+55 verbose cache add spec 14
+56 silly cache add parsed spec Result {
+56 silly cache add   raw: 'node',
+56 silly cache add   scope: null,
+56 silly cache add   name: 'node',
+56 silly cache add   rawSpec: '',
+56 silly cache add   spec: '*',
+56 silly cache add   type: 'range' }
+57 silly addNamed node@*
+58 verbose addNamed "*" is a valid semver range for node
+59 silly addNameRange { name: 'node', range: '*', hasData: false }
+60 silly mapToRegistry name node
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry uri https://registry.npmjs.org/node
+64 verbose addNameRange registry:https://registry.npmjs.org/node not in flight; fetching
+65 silly cache add parsed spec Result {
+65 silly cache add   raw: '14',
+65 silly cache add   scope: null,
+65 silly cache add   name: '14',
+65 silly cache add   rawSpec: '',
+65 silly cache add   spec: '*',
+65 silly cache add   type: 'range' }
+66 silly addNamed 14@*
+67 verbose addNamed "*" is a valid semver range for 14
+68 silly addNameRange { name: '14', range: '*', hasData: false }
+69 silly mapToRegistry name 14
+70 silly mapToRegistry using default registry
+71 silly mapToRegistry registry https://registry.npmjs.org/
+72 silly mapToRegistry uri https://registry.npmjs.org/14
+73 verbose addNameRange registry:https://registry.npmjs.org/14 not in flight; fetching
+74 verbose get https://registry.npmjs.org/14 not expired, no request
+75 silly addNameRange number 2 { name: '14', range: '*', hasData: true }
+76 silly addNameRange versions [ '14', [ '1.0.1', '3.1.4', '3.1.5', '3.1.6' ] ]
+77 silly addNamed 14@3.1.6
+78 verbose addNamed "3.1.6" is a plain semver version for 14
+79 verbose get https://registry.npmjs.org/node not expired, no request
+80 silly addNameRange number 2 { name: 'node', range: '*', hasData: true }
+81 silly addNameRange versions [ 'node',
+81 silly addNameRange   [ '0.0.0',
+81 silly addNameRange     '0.1.14',
+81 silly addNameRange     '0.1.15',
+81 silly addNameRange     '0.1.16',
+81 silly addNameRange     '0.1.17',
+81 silly addNameRange     '0.1.18',
+81 silly addNameRange     '0.1.19',
+81 silly addNameRange     '0.1.20',
+81 silly addNameRange     '0.1.21',
+81 silly addNameRange     '0.1.22',
+81 silly addNameRange     '0.1.23',
+81 silly addNameRange     '0.1.24',
+81 silly addNameRange     '0.1.25',
+81 silly addNameRange     '0.1.26',
+81 silly addNameRange     '0.1.27',
+81 silly addNameRange     '0.1.28',
+81 silly addNameRange     '0.1.29',
+81 silly addNameRange     '0.1.30',
+81 silly addNameRange     '0.1.31',
+81 silly addNameRange     '0.1.32',
+81 silly addNameRange     '0.1.33',
+81 silly addNameRange     '0.1.90',
+81 silly addNameRange     '0.1.91',
+81 silly addNameRange     '0.1.92',
+81 silly addNameRange     '0.1.93',
+81 silly addNameRange     '0.1.94',
+81 silly addNameRange     '0.1.95',
+81 silly addNameRange     '0.1.96',
+81 silly addNameRange     '0.1.97',
+81 silly addNameRange     '0.1.98',
+81 silly addNameRange     '0.1.99',
+81 silly addNameRange     '0.1.100',
+81 silly addNameRange     '0.1.101',
+81 silly addNameRange     '0.1.102',
+81 silly addNameRange     '0.1.103',
+81 silly addNameRange     '0.1.104',
+81 silly addNameRange     '0.2.0',
+81 silly addNameRange     '0.2.1',
+81 silly addNameRange     '0.2.2',
+81 silly addNameRange     '0.2.3',
+81 silly addNameRange     '0.2.4',
+81 silly addNameRange     '0.2.5',
+81 silly addNameRange     '0.2.6',
+81 silly addNameRange     '0.3.0',
+81 silly addNameRange     '0.3.1',
+81 silly addNameRange     '0.3.2',
+81 silly addNameRange     '0.3.3',
+81 silly addNameRange     '0.3.4',
+81 silly addNameRange     '0.3.5',
+81 silly addNameRange     '0.3.6',
+81 silly addNameRange     '0.3.7',
+81 silly addNameRange     '0.3.8',
+81 silly addNameRange     '0.4.0',
+81 silly addNameRange     '0.4.1',
+81 silly addNameRange     '0.4.2',
+81 silly addNameRange     '0.4.3',
+81 silly addNameRange     '0.4.4',
+81 silly addNameRange     '0.4.5',
+81 silly addNameRange     '0.4.6',
+81 silly addNameRange     '0.4.7',
+81 silly addNameRange     '0.4.8',
+81 silly addNameRange     '0.4.9',
+81 silly addNameRange     '0.4.10',
+81 silly addNameRange     '0.4.11',
+81 silly addNameRange     '0.4.12',
+81 silly addNameRange     '0.5.0',
+81 silly addNameRange     '0.5.1',
+81 silly addNameRange     '0.5.2',
+81 silly addNameRange     '0.5.3',
+81 silly addNameRange     '0.5.4',
+81 silly addNameRange     '0.5.5',
+81 silly addNameRange     '0.5.6',
+81 silly addNameRange     '0.5.7',
+81 silly addNameRange     '0.5.8',
+81 silly addNameRange     '0.5.9',
+81 silly addNameRange     '0.5.10',
+81 silly addNameRange     '0.6.0',
+81 silly addNameRange     '0.6.1',
+81 silly addNameRange     '0.6.2',
+81 silly addNameRange     '0.6.3',
+81 silly addNameRange     '0.6.4',
+81 silly addNameRange     '0.6.5',
+81 silly addNameRange     '0.6.6',
+81 silly addNameRange     '0.6.7',
+81 silly addNameRange     '0.6.8',
+81 silly addNameRange     '0.6.9',
+81 silly addNameRange     '0.6.10',
+81 silly addNameRange     '0.6.11',
+81 silly addNameRange     '0.6.12',
+81 silly addNameRange     '0.6.13',
+81 silly addNameRange     '0.6.14',
+81 silly addNameRange     '0.6.15',
+81 silly addNameRange     '0.6.16',
+81 silly addNameRange     '0.6.17',
+81 silly addNameRange     '0.6.18',
+81 silly addNameRange     '0.6.19',
+81 silly addNameRange     '0.6.20',
+81 silly addNameRange     '0.6.21',
+81 silly addNameRange     '0.7.0',
+81 silly addNameRange     '0.7.1',
+81 silly addNameRange     '0.7.2',
+81 silly addNameRange     '0.7.3',
+81 silly addNameRange     '0.7.4',
+81 silly addNameRange     '0.7.5',
+81 silly addNameRange     '0.7.6',
+81 silly addNameRange     '0.7.7',
+81 silly addNameRange     '0.7.8',
+81 silly addNameRange     '0.7.9',
+81 silly addNameRange     '0.7.10',
+81 silly addNameRange     '0.7.11',
+81 silly addNameRange     '0.7.12',
+81 silly addNameRange     '0.8.0',
+81 silly addNameRange     '0.8.1',
+81 silly addNameRange     '0.8.2',
+81 silly addNameRange     '0.8.3',
+81 silly addNameRange     '0.8.4',
+81 silly addNameRange     '0.8.5',
+81 silly addNameRange     '0.8.6',
+81 silly addNameRange     '0.8.7',
+81 silly addNameRange     '0.8.8',
+81 silly addNameRange     '0.8.9',
+81 silly addNameRange     '0.8.10',
+81 silly addNameRange     '0.8.11',
+81 silly addNameRange     '0.8.12',
+81 silly addNameRange     '0.8.13',
+81 silly addNameRange     '0.8.14',
+81 silly addNameRange     '0.8.15',
+81 silly addNameRange     '0.8.16',
+81 silly addNameRange     '0.8.17',
+81 silly addNameRange     '0.8.18',
+81 silly addNameRange     '0.8.19',
+81 silly addNameRange     '0.8.20',
+81 silly addNameRange     '0.8.21',
+81 silly addNameRange     '0.8.22',
+81 silly addNameRange     '0.8.23',
+81 silly addNameRange     '0.8.24',
+81 silly addNameRange     '0.8.25',
+81 silly addNameRange     '0.8.26',
+81 silly addNameRange     '0.8.27',
+81 silly addNameRange     '0.8.28',
+81 silly addNameRange     '0.9.0',
+81 silly addNameRange     '0.9.1',
+81 silly addNameRange     '0.9.2',
+81 silly addNameRange     '0.9.3',
+81 silly addNameRange     '0.9.4',
+81 silly addNameRange     '0.9.5',
+81 silly addNameRange     '0.9.6',
+81 silly addNameRange     '0.9.7',
+81 silly addNameRange     '0.9.8',
+81 silly addNameRange     '0.9.9',
+81 silly addNameRange     '0.9.10',
+81 silly addNameRange     '0.9.11',
+81 silly addNameRange     '0.9.12',
+81 silly addNameRange     '0.10.0',
+81 silly addNameRange     '0.10.1',
+81 silly addNameRange     '0.10.2',
+81 silly addNameRange     '0.10.3',
+81 silly addNameRange     '0.10.4',
+81 silly addNameRange     '0.10.5',
+81 silly addNameRange     '0.10.6',
+81 silly addNameRange     '0.10.7',
+81 silly addNameRange     '0.10.8',
+81 silly addNameRange     '0.10.9',
+81 silly addNameRange     '0.10.10',
+81 silly addNameRange     '0.10.11',
+81 silly addNameRange     '0.10.12',
+81 silly addNameRange     '0.10.13',
+81 silly addNameRange     '0.10.14',
+81 silly addNameRange     '0.10.15',
+81 silly addNameRange     '0.10.16',
+81 silly addNameRange     '0.10.17',
+81 silly addNameRange     '0.10.18',
+81 silly addNameRange     '0.10.19',
+81 silly addNameRange     '0.10.20',
+81 silly addNameRange     '0.10.21',
+81 silly addNameRange     '0.10.22',
+81 silly addNameRange     '0.10.23',
+81 silly addNameRange     '0.10.24',
+81 silly addNameRange     '0.10.25',
+81 silly addNameRange     '0.10.26',
+81 silly addNameRange     '0.10.27',
+81 silly addNameRange     '0.10.28',
+81 silly addNameRange     '0.10.29',
+81 silly addNameRange     '0.10.30',
+81 silly addNameRange     '0.10.31',
+81 silly addNameRange     '0.10.32',
+81 silly addNameRange     '0.10.33',
+81 silly addNameRange     '0.10.34',
+81 silly addNameRange     '0.10.35',
+81 silly addNameRange     '0.10.36',
+81 silly addNameRange     '0.10.37',
+81 silly addNameRange     '0.10.38',
+81 silly addNameRange     '0.10.39',
+81 silly addNameRange     '0.10.40',
+81 silly addNameRange     '0.10.41',
+81 silly addNameRange     '0.10.42',
+81 silly addNameRange     '0.10.43',
+81 silly addNameRange     '0.10.44',
+81 silly addNameRange     '0.10.45',
+81 silly addNameRange     '0.10.46',
+81 silly addNameRange     '0.10.47',
+81 silly addNameRange     '0.10.48',
+81 silly addNameRange     '0.11.0',
+81 silly addNameRange     '0.11.1',
+81 silly addNameRange     '0.11.2',
+81 silly addNameRange     '0.11.3',
+81 silly addNameRange     '0.11.4',
+81 silly addNameRange     '0.11.5',
+81 silly addNameRange     '0.11.6',
+81 silly addNameRange     '0.11.7',
+81 silly addNameRange     '0.11.8',
+81 silly addNameRange     '0.11.9',
+81 silly addNameRange     '0.11.10',
+81 silly addNameRange     '0.11.11',
+81 silly addNameRange     '0.11.12',
+81 silly addNameRange     '0.11.13',
+81 silly addNameRange     '0.11.14',
+81 silly addNameRange     '0.11.15',
+81 silly addNameRange     '0.11.16',
+81 silly addNameRange     '0.12.0',
+81 silly addNameRange     '0.12.1',
+81 silly addNameRange     '0.12.2',
+81 silly addNameRange     '0.12.3',
+81 silly addNameRange     '0.12.4',
+81 silly addNameRange     '0.12.5',
+81 silly addNameRange     '0.12.6',
+81 silly addNameRange     '0.12.7',
+81 silly addNameRange     '0.12.8',
+81 silly addNameRange     '0.12.9',
+81 silly addNameRange     '0.12.10',
+81 silly addNameRange     '0.12.11',
+81 silly addNameRange     '0.12.12',
+81 silly addNameRange     '0.12.13',
+81 silly addNameRange     '0.12.14',
+81 silly addNameRange     '0.12.15',
+81 silly addNameRange     '0.12.16',
+81 silly addNameRange     '0.12.17',
+81 silly addNameRange     '0.12.18',
+81 silly addNameRange     '4.0.0',
+81 silly addNameRange     '4.1.0',
+81 silly addNameRange     '4.1.1',
+81 silly addNameRange     '4.1.2',
+81 silly addNameRange     '4.2.0',
+81 silly addNameRange     '4.2.1',
+81 silly addNameRange     '4.2.2',
+81 silly addNameRange     '4.2.3',
+81 silly addNameRange     '4.2.4',
+81 silly addNameRange     '4.2.5',
+81 silly addNameRange     '4.2.6',
+81 silly addNameRange     '4.3.0',
+81 silly addNameRange     '4.3.1',
+81 silly addNameRange     '4.3.2',
+81 silly addNameRange     '4.4.0',
+81 silly addNameRange     '4.4.1',
+81 silly addNameRange     '4.4.2',
+81 silly addNameRange     '4.4.3',
+81 silly addNameRange     '4.4.4',
+81 silly addNameRange     '4.4.5',
+81 silly addNameRange     '4.4.6',
+81 silly addNameRange     '4.4.7',
+81 silly addNameRange     '4.5.0',
+81 silly addNameRange     '4.6.0',
+81 silly addNameRange     '4.6.1',
+81 silly addNameRange     '4.6.2',
+81 silly addNameRange     '4.7.0',
+81 silly addNameRange     '4.7.1',
+81 silly addNameRange     '4.7.2',
+81 silly addNameRange     '4.7.3',
+81 silly addNameRange     '4.8.0',
+81 silly addNameRange     '4.8.1',
+81 silly addNameRange     '4.8.2',
+81 silly addNameRange     '4.8.3',
+81 silly addNameRange     '4.8.4',
+81 silly addNameRange     '5.0.0',
+81 silly addNameRange     '5.1.0',
+81 silly addNameRange     '5.1.1',
+81 silly addNameRange     '5.2.0',
+81 silly addNameRange     '5.3.0',
+81 silly addNameRange     '5.4.0',
+81 silly addNameRange     '5.4.1',
+81 silly addNameRange     '5.5.0',
+81 silly addNameRange     '5.6.0',
+81 silly addNameRange     '5.7.0',
+81 silly addNameRange     '5.7.1',
+81 silly addNameRange     '5.8.0',
+81 silly addNameRange     '5.9.0',
+81 silly addNameRange     '5.9.1',
+81 silly addNameRange     '5.10.0',
+81 silly addNameRange     '5.10.1',
+81 silly addNameRange     '5.11.0',
+81 silly addNameRange     '5.11.1',
+81 silly addNameRange     '5.12.0',
+81 silly addNameRange     '6.0.0',
+81 silly addNameRange     '6.1.0',
+81 silly addNameRange     '6.2.0',
+81 silly addNameRange     '6.2.1',
+81 silly addNameRange     '6.2.2',
+81 silly addNameRange     '6.3.0',
+81 silly addNameRange     '6.3.1',
+81 silly addNameRange     '6.4.0',
+81 silly addNameRange     '6.5.0',
+81 silly addNameRange     '6.6.0',
+81 silly addNameRange     '6.7.0',
+81 silly addNameRange     '6.8.0',
+81 silly addNameRange     '6.8.1',
+81 silly addNameRange     '6.9.0',
+81 silly addNameRange     '6.9.1',
+81 silly addNameRange     '6.9.2',
+81 silly addNameRange     '6.9.3',
+81 silly addNameRange     '6.9.4',
+81 silly addNameRange     '6.9.5',
+81 silly addNameRange     '6.10.0',
+81 silly addNameRange     '6.10.1',
+81 silly addNameRange     '6.10.2',
+81 silly addNameRange     '6.10.3',
+81 silly addNameRange     '6.11.0',
+81 silly addNameRange     '6.11.1',
+81 silly addNameRange     '7.0.0',
+81 silly addNameRange     '7.1.0',
+81 silly addNameRange     '7.2.0',
+81 silly addNameRange     '7.2.1',
+81 silly addNameRange     '7.3.0',
+81 silly addNameRange     '7.4.0',
+81 silly addNameRange     '7.5.0',
+81 silly addNameRange     '7.6.0',
+81 silly addNameRange     '7.7.0',
+81 silly addNameRange     '7.7.1',
+81 silly addNameRange     '7.7.2',
+81 silly addNameRange     '7.7.3',
+81 silly addNameRange     '7.7.4',
+81 silly addNameRange     '7.8.0',
+81 silly addNameRange     '7.9.0',
+81 silly addNameRange     '7.10.0',
+81 silly addNameRange     '7.10.1',
+81 silly addNameRange     '8.0.0',
+81 silly addNameRange     '8.1.0',
+81 silly addNameRange     '8.1.1',
+81 silly addNameRange     '8.1.2',
+81 silly addNameRange     '8.1.3',
+81 silly addNameRange     '8.1.4',
+81 silly addNameRange     '8.2.0',
+81 silly addNameRange     '8.2.1',
+81 silly addNameRange     '8.3.0',
+81 silly addNameRange     '8.4.0',
+81 silly addNameRange     '8.5.0',
+81 silly addNameRange     '8.6.0',
+81 silly addNameRange     '8.7.0',
+81 silly addNameRange     '8.8.0',
+81 silly addNameRange     '8.8.1',
+81 silly addNameRange     '8.9.0',
+81 silly addNameRange     '9.0.0',
+81 silly addNameRange     '4.8.6',
+81 silly addNameRange     '6.12.0',
+81 silly addNameRange     '9.1.0',
+81 silly addNameRange     '9.2.0',
+81 silly addNameRange     '8.9.1',
+81 silly addNameRange     '6.12.1',
+81 silly addNameRange     '8.9.2',
+81 silly addNameRange     '4.8.7',
+81 silly addNameRange     '6.12.2',
+81 silly addNameRange     '9.3.0',
+81 silly addNameRange     '8.9.4',
+81 silly addNameRange     '6.12.3',
+81 silly addNameRange     '9.4.0',
+81 silly addNameRange     '9.5.0',
+81 silly addNameRange     '6.13.0',
+81 silly addNameRange     '9.7.0',
+81 silly addNameRange     '9.6.0',
+81 silly addNameRange     '9.6.1',
+81 silly addNameRange     '8.10.0',
+81 silly addNameRange     '9.8.0',
+81 silly addNameRange     '9.9.0',
+81 silly addNameRange     '8.11.0',
+81 silly addNameRange     '6.14.0',
+81 silly addNameRange     '4.9.0',
+81 silly addNameRange     '9.10.0',
+81 silly addNameRange     '8.11.1',
+81 silly addNameRange     '4.9.1',
+81 silly addNameRange     '6.14.1',
+81 silly addNameRange     '9.10.1',
+81 silly addNameRange     '9.11.0',
+81 silly addNameRange     '10.0.0',
+81 silly addNameRange     '6.14.2',
+81 silly addNameRange     '6.11.5',
+81 silly addNameRange     '8.11.2',
+81 silly addNameRange     '10.1.0',
+81 silly addNameRange     '10.2.0',
+81 silly addNameRange     '10.3.0',
+81 silly addNameRange     '10.4.0',
+81 silly addNameRange     '8.11.3',
+81 silly addNameRange     '6.14.3',
+81 silly addNameRange     '9.11.2',
+81 silly addNameRange     '10.4.1',
+81 silly addNameRange     '10.5.0',
+81 silly addNameRange     '10.6.0',
+81 silly addNameRange     '10.7.0',
+81 silly addNameRange     '10.8.0',
+81 silly addNameRange     '8.11.4',
+81 silly addNameRange     '10.9.0',
+81 silly addNameRange     '6.14.4',
+81 silly addNameRange     '10.10.0',
+81 silly addNameRange     '8.12.0',
+81 silly addNameRange     '10.11.0',
+81 silly addNameRange     '10.12.0',
+81 silly addNameRange     '11.0.0',
+81 silly addNameRange     '10.13.0',
+81 silly addNameRange     '11.1.0',
+81 silly addNameRange     '8.13.0',
+81 silly addNameRange     '11.2.0',
+81 silly addNameRange     '6.15.1',
+81 silly addNameRange     '8.14.0',
+81 silly addNameRange     '10.14.0',
+81 silly addNameRange     '11.3.0',
+81 silly addNameRange     '11.4.0',
+81 silly addNameRange     '10.14.1',
+81 silly addNameRange     '11.5.0',
+81 silly addNameRange     '8.14.1',
+81 silly addNameRange     '10.14.2',
+81 silly addNameRange     '11.6.0',
+81 silly addNameRange     '10.15.0',
+81 silly addNameRange     '8.15.0',
+81 silly addNameRange     '6.16.0',
+81 silly addNameRange     '11.7.0',
+81 silly addNameRange     '11.8.0',
+81 silly addNameRange     '10.15.1',
+81 silly addNameRange     '11.9.0',
+81 silly addNameRange     '11.10.0',
+81 silly addNameRange     '6.17.0',
+81 silly addNameRange     '8.15.1',
+81 silly addNameRange     '10.15.2',
+81 silly addNameRange     '10.15.3',
+81 silly addNameRange     '11.11.0',
+81 silly addNameRange     '11.12.0',
+81 silly addNameRange     '11.13.0',
+81 silly addNameRange     '6.17.1',
+81 silly addNameRange     '11.14.0',
+81 silly addNameRange     '12.0.0',
+81 silly addNameRange     '8.16.0',
+81 silly addNameRange     '12.1.0',
+81 silly addNameRange     '11.15.0',
+81 silly addNameRange     '12.2.0',
+81 silly addNameRange     '12.3.0',
+81 silly addNameRange     '12.3.1',
+81 silly addNameRange     '10.16.0',
+81 silly addNameRange     '12.4.0',
+81 silly addNameRange     '12.5.0',
+81 silly addNameRange     '12.6.0',
+81 silly addNameRange     '12.7.0',
+81 silly addNameRange     '10.16.1',
+81 silly addNameRange     '10.16.2',
+81 silly addNameRange     '12.8.0',
+81 silly addNameRange     '10.16.3',
+81 silly addNameRange     '8.16.1',
+81 silly addNameRange     '12.8.1',
+81 silly addNameRange     '12.9.0',
+81 silly addNameRange     '12.9.1',
+81 silly addNameRange     '12.10.0',
+81 silly addNameRange     '12.11.0',
+81 silly addNameRange     '12.11.1',
+81 silly addNameRange     '8.16.2',
+81 silly addNameRange     '12.12.0',
+81 silly addNameRange     '12.13.0',
+81 silly addNameRange     '13.0.0',
+81 silly addNameRange     '10.17.0',
+81 silly addNameRange     '13.0.1',
+81 silly addNameRange     '13.1.0',
+81 silly addNameRange     '13.2.0',
+81 silly addNameRange     '13.3.0',
+81 silly addNameRange     '12.13.1',
+81 silly addNameRange     '8.17.0',
+81 silly addNameRange     '10.18.0',
+81 silly addNameRange     '12.14.0',
+81 silly addNameRange     '13.4.0',
+81 silly addNameRange     '13.5.0',
+81 silly addNameRange     '12.14.1',
+81 silly addNameRange     '13.6.0',
+81 silly addNameRange     '10.18.1',
+81 silly addNameRange     '13.7.0',
+81 silly addNameRange     '10.19.0',
+81 silly addNameRange     '12.15.0',
+81 silly addNameRange     '13.8.0',
+81 silly addNameRange     '12.16.0',
+81 silly addNameRange     '12.16.1',
+81 silly addNameRange     '13.9.0',
+81 silly addNameRange     '13.10.0',
+81 silly addNameRange     '13.10.1',
+81 silly addNameRange     '13.11.0',
+81 silly addNameRange     '13.12.0',
+81 silly addNameRange     '10.20.0',
+81 silly addNameRange     '12.16.2',
+81 silly addNameRange     '10.20.1',
+81 silly addNameRange     '13.13.0',
+81 silly addNameRange     '14.0.0',
+81 silly addNameRange     '12.16.3',
+81 silly addNameRange     '13.14.0',
+81 silly addNameRange     '14.1.0',
+81 silly addNameRange     '14.2.0',
+81 silly addNameRange     '14.3.0',
+81 silly addNameRange     '12.17.0',
+81 silly addNameRange     '10.21.0',
+81 silly addNameRange     '12.18.0',
+81 silly addNameRange     '14.4.0',
+81 silly addNameRange     '12.18.1',
+81 silly addNameRange     '14.5.0',
+81 silly addNameRange     '12.18.2',
+81 silly addNameRange     '10.22.0',
+81 silly addNameRange     '14.6.0',
+81 silly addNameRange     '12.18.3',
+81 silly addNameRange     '14.7.0',
+81 silly addNameRange     '14.8.0',
+81 silly addNameRange     '14.9.0',
+81 silly addNameRange     '14.10.0',
+81 silly addNameRange     '14.10.1',
+81 silly addNameRange     '10.22.1',
+81 silly addNameRange     '12.18.4',
+81 silly addNameRange     '14.11.0',
+81 silly addNameRange     '14.12.0',
+81 silly addNameRange     '14.13.0',
+81 silly addNameRange     '14.13.1',
+81 silly addNameRange     '12.19.0',
+81 silly addNameRange     '14.14.0',
+81 silly addNameRange     '15.0.0',
+81 silly addNameRange     '15.0.1',
+81 silly addNameRange     '14.15.0',
+81 silly addNameRange     '10.23.0',
+81 silly addNameRange     '15.1.0',
+81 silly addNameRange     '15.2.0',
+81 silly addNameRange     '12.19.1',
+81 silly addNameRange     '14.15.1',
+81 silly addNameRange     '15.2.1',
+81 silly addNameRange     '15.3.0',
+81 silly addNameRange     '12.20.0',
+81 silly addNameRange     '15.4.0',
+81 silly addNameRange     '14.15.2',
+81 silly addNameRange     '12.20.1',
+81 silly addNameRange     '10.23.2',
+81 silly addNameRange     '15.7.0',
+81 silly addNameRange     '15.8.0',
+81 silly addNameRange     '14.16.0',
+81 silly addNameRange     '15.10.0',
+81 silly addNameRange     '12.21.0',
+81 silly addNameRange     '10.24.0',
+81 silly addNameRange     '15.12.0',
+81 silly addNameRange     '10.24.1',
+81 silly addNameRange     '12.22.1',
+81 silly addNameRange     '14.16.1',
+81 silly addNameRange     '15.14.0',
+81 silly addNameRange     '16.0.0',
+81 silly addNameRange     '16.1.0',
+81 silly addNameRange     '16.3.0',
+81 silly addNameRange     '14.17.1',
+81 silly addNameRange     '16.4.0',
+81 silly addNameRange     '14.17.2',
+81 silly addNameRange     '12.22.2',
+81 silly addNameRange     '12.22.3',
+81 silly addNameRange     '14.17.3',
+81 silly addNameRange     '16.4.1',
+81 silly addNameRange     '16.5.0',
+81 silly addNameRange     '12.22.4',
+81 silly addNameRange     '14.17.4',
+81 silly addNameRange     '16.6.0',
+81 silly addNameRange     '16.6.1' ] ]
+82 silly addNamed node@16.6.1
+83 verbose addNamed "16.6.1" is a plain semver version for node
+84 silly mapToRegistry name 14
+85 silly mapToRegistry using default registry
+86 silly mapToRegistry registry https://registry.npmjs.org/
+87 silly mapToRegistry uri https://registry.npmjs.org/14
+88 verbose addRemoteTarball https://registry.npmjs.org/14/-/14-3.1.6.tgz not in flight; adding
+89 verbose addRemoteTarball [ 'https://registry.npmjs.org/14/-/14-3.1.6.tgz',
+89 verbose addRemoteTarball   'd17f2952b3704767853a348aaee32c5763b3c2a8' ]
+90 silly mapToRegistry name node
+91 silly mapToRegistry using default registry
+92 silly mapToRegistry registry https://registry.npmjs.org/
+93 silly mapToRegistry uri https://registry.npmjs.org/node
+94 verbose addRemoteTarball https://registry.npmjs.org/node/-/node-16.6.1.tgz not in flight; adding
+95 verbose addRemoteTarball [ 'https://registry.npmjs.org/node/-/node-16.6.1.tgz',
+95 verbose addRemoteTarball   '97e0ea529eb11db1fda0eac4f02ccb7b7de71c3c' ]
+96 info retry fetch attempt 1 at 3:31:21 PM
+97 info attempt registry request try #1 at 3:31:21 PM
+98 http fetch GET https://registry.npmjs.org/14/-/14-3.1.6.tgz
+99 info retry fetch attempt 1 at 3:31:21 PM
+100 info attempt registry request try #1 at 3:31:21 PM
+101 http fetch GET https://registry.npmjs.org/node/-/node-16.6.1.tgz
+102 http fetch 200 https://registry.npmjs.org/14/-/14-3.1.6.tgz
+103 http fetch 200 https://registry.npmjs.org/node/-/node-16.6.1.tgz
+104 silly fetchAndShaCheck shasum 97e0ea529eb11db1fda0eac4f02ccb7b7de71c3c
+105 verbose addTmpTarball C:\Users\TSHIAM~1.WIN\AppData\Local\Temp\npm-15804-7e8b5391\registry.npmjs.org\node\-\node-16.6.1.tgz not in flight; adding
+106 verbose addTmpTarball already have metadata; skipping unpack for node@16.6.1
+107 silly cache afterAdd node@16.6.1
+108 verbose afterAdd C:\Users\Tshiamo.WIN-P3T4VPK3U1I\AppData\Roaming\npm-cache\node\16.6.1\package\package.json not in flight; writing
+109 verbose afterAdd C:\Users\Tshiamo.WIN-P3T4VPK3U1I\AppData\Roaming\npm-cache\node\16.6.1\package\package.json written
+110 silly fetchAndShaCheck shasum d17f2952b3704767853a348aaee32c5763b3c2a8
+111 verbose addTmpTarball C:\Users\TSHIAM~1.WIN\AppData\Local\Temp\npm-15804-7e8b5391\registry.npmjs.org\14\-\14-3.1.6.tgz not in flight; adding
+112 verbose addTmpTarball already have metadata; skipping unpack for 14@3.1.6
+113 silly cache afterAdd 14@3.1.6
+114 verbose afterAdd C:\Users\Tshiamo.WIN-P3T4VPK3U1I\AppData\Roaming\npm-cache\14\3.1.6\package\package.json not in flight; writing
+115 verbose afterAdd C:\Users\Tshiamo.WIN-P3T4VPK3U1I\AppData\Roaming\npm-cache\14\3.1.6\package\package.json written
+116 silly fetchNamedPackageData gulp
+117 silly mapToRegistry name gulp
+118 silly mapToRegistry using default registry
+119 silly mapToRegistry registry https://registry.npmjs.org/
+120 silly mapToRegistry uri https://registry.npmjs.org/gulp
+121 silly fetchNamedPackageData gulp-uglify
+122 silly mapToRegistry name gulp-uglify
+123 silly mapToRegistry using default registry
+124 silly mapToRegistry registry https://registry.npmjs.org/
+125 silly mapToRegistry uri https://registry.npmjs.org/gulp-uglify
+126 silly fetchNamedPackageData gulp-rename
+127 silly mapToRegistry name gulp-rename
+128 silly mapToRegistry using default registry
+129 silly mapToRegistry registry https://registry.npmjs.org/
+130 silly mapToRegistry uri https://registry.npmjs.org/gulp-rename
+131 silly fetchNamedPackageData gulp-concat
+132 silly mapToRegistry name gulp-concat
+133 silly mapToRegistry using default registry
+134 silly mapToRegistry registry https://registry.npmjs.org/
+135 silly mapToRegistry uri https://registry.npmjs.org/gulp-concat
+136 silly fetchNamedPackageData gulp-minify-css
+137 silly mapToRegistry name gulp-minify-css
+138 silly mapToRegistry using default registry
+139 silly mapToRegistry registry https://registry.npmjs.org/
+140 silly mapToRegistry uri https://registry.npmjs.org/gulp-minify-css
+141 silly fetchNamedPackageData gulp-minify-html
+142 silly mapToRegistry name gulp-minify-html
+143 silly mapToRegistry using default registry
+144 silly mapToRegistry registry https://registry.npmjs.org/
+145 silly mapToRegistry uri https://registry.npmjs.org/gulp-minify-html
+146 silly fetchNamedPackageData gulp-imagemin
+147 silly mapToRegistry name gulp-imagemin
+148 silly mapToRegistry using default registry
+149 silly mapToRegistry registry https://registry.npmjs.org/
+150 silly mapToRegistry uri https://registry.npmjs.org/gulp-imagemin
+151 verbose request uri https://registry.npmjs.org/gulp
+152 verbose request no auth needed
+153 info attempt registry request try #1 at 3:31:22 PM
+154 http request GET https://registry.npmjs.org/gulp
+155 verbose request uri https://registry.npmjs.org/gulp-uglify
+156 verbose request no auth needed
+157 info attempt registry request try #1 at 3:31:22 PM
+158 http request GET https://registry.npmjs.org/gulp-uglify
+159 verbose request uri https://registry.npmjs.org/gulp-rename
+160 verbose request no auth needed
+161 info attempt registry request try #1 at 3:31:22 PM
+162 http request GET https://registry.npmjs.org/gulp-rename
+163 verbose request uri https://registry.npmjs.org/gulp-concat
+164 verbose request no auth needed
+165 info attempt registry request try #1 at 3:31:22 PM
+166 http request GET https://registry.npmjs.org/gulp-concat
+167 verbose request uri https://registry.npmjs.org/gulp-minify-css
+168 verbose request no auth needed
+169 info attempt registry request try #1 at 3:31:22 PM
+170 http request GET https://registry.npmjs.org/gulp-minify-css
+171 verbose request uri https://registry.npmjs.org/gulp-minify-html
+172 verbose request no auth needed
+173 info attempt registry request try #1 at 3:31:22 PM
+174 http request GET https://registry.npmjs.org/gulp-minify-html
+175 verbose request uri https://registry.npmjs.org/gulp-imagemin
+176 verbose request no auth needed
+177 info attempt registry request try #1 at 3:31:22 PM
+178 http request GET https://registry.npmjs.org/gulp-imagemin
+179 http 200 https://registry.npmjs.org/gulp
+180 verbose headers { date: 'Sat, 14 Aug 2021 13:31:21 GMT',
+180 verbose headers   'content-type': 'application/json',
+180 verbose headers   'transfer-encoding': 'chunked',
+180 verbose headers   connection: 'keep-alive',
+180 verbose headers   'cf-ray': '67ea8b048ff80536-JNB',
+180 verbose headers   age: '2621',
+180 verbose headers   'cache-control': 'public, max-age=300',
+180 verbose headers   etag: 'W/"1a8c870243070ec4df12f78c990c9a24"',
+180 verbose headers   'last-modified': 'Thu, 12 Aug 2021 02:00:27 GMT',
+180 verbose headers   vary: 'accept-encoding, accept',
+180 verbose headers   'cf-cache-status': 'HIT',
+180 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+180 verbose headers   'x-amz-replication-status': 'COMPLETED',
+180 verbose headers   server: 'cloudflare',
+180 verbose headers   'content-encoding': 'gzip' }
+181 silly get cb [ 200,
+181 silly get   { date: 'Sat, 14 Aug 2021 13:31:21 GMT',
+181 silly get     'content-type': 'application/json',
+181 silly get     'transfer-encoding': 'chunked',
+181 silly get     connection: 'keep-alive',
+181 silly get     'cf-ray': '67ea8b048ff80536-JNB',
+181 silly get     age: '2621',
+181 silly get     'cache-control': 'public, max-age=300',
+181 silly get     etag: 'W/"1a8c870243070ec4df12f78c990c9a24"',
+181 silly get     'last-modified': 'Thu, 12 Aug 2021 02:00:27 GMT',
+181 silly get     vary: 'accept-encoding, accept',
+181 silly get     'cf-cache-status': 'HIT',
+181 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+181 silly get     'x-amz-replication-status': 'COMPLETED',
+181 silly get     server: 'cloudflare',
+181 silly get     'content-encoding': 'gzip' } ]
+182 verbose get saving gulp to C:\Users\Tshiamo.WIN-P3T4VPK3U1I\AppData\Roaming\npm-cache\registry.npmjs.org\gulp\.cache.json
+183 silly resolveWithNewModule gulp@4.0.2 checking installable status
+184 silly cache add args [ 'gulp@*', null ]
+185 verbose cache add spec gulp@*
+186 silly cache add parsed spec Result {
+186 silly cache add   raw: 'gulp@*',
+186 silly cache add   scope: null,
+186 silly cache add   name: 'gulp',
+186 silly cache add   rawSpec: '*',
+186 silly cache add   spec: '*',
+186 silly cache add   type: 'range' }
+187 silly addNamed gulp@*
+188 verbose addNamed "*" is a valid semver range for gulp
+189 silly addNameRange { name: 'gulp', range: '*', hasData: false }
+190 silly mapToRegistry name gulp
+191 silly mapToRegistry using default registry
+192 silly mapToRegistry registry https://registry.npmjs.org/
+193 silly mapToRegistry uri https://registry.npmjs.org/gulp
+194 verbose addNameRange registry:https://registry.npmjs.org/gulp not in flight; fetching
+195 verbose get https://registry.npmjs.org/gulp not expired, no request
+196 silly addNameRange number 2 { name: 'gulp', range: '*', hasData: true }
+197 silly addNameRange versions [ 'gulp',
+197 silly addNameRange   [ '0.0.1',
+197 silly addNameRange     '0.0.2',
+197 silly addNameRange     '0.0.3',
+197 silly addNameRange     '0.0.4',
+197 silly addNameRange     '0.0.5',
+197 silly addNameRange     '0.0.7',
+197 silly addNameRange     '0.0.8',
+197 silly addNameRange     '0.0.9',
+197 silly addNameRange     '0.1.0',
+197 silly addNameRange     '0.2.0',
+197 silly addNameRange     '1.0.0',
+197 silly addNameRange     '1.1.0',
+197 silly addNameRange     '1.2.0',
+197 silly addNameRange     '1.2.1',
+197 silly addNameRange     '2.0.0',
+197 silly addNameRange     '2.0.1',
+197 silly addNameRange     '2.1.0',
+197 silly addNameRange     '2.2.0',
+197 silly addNameRange     '2.3.0',
+197 silly addNameRange     '2.4.0',
+197 silly addNameRange     '2.4.1',
+197 silly addNameRange     '2.6.0',
+197 silly addNameRange     '2.6.1',
+197 silly addNameRange     '2.7.0',
+197 silly addNameRange     '3.0.0',
+197 silly addNameRange     '3.1.1',
+197 silly addNameRange     '3.1.2',
+197 silly addNameRange     '3.1.3',
+197 silly addNameRange     '3.1.4',
+197 silly addNameRange     '3.2.0',
+197 silly addNameRange     '3.2.1',
+197 silly addNameRange     '3.2.2',
+197 silly addNameRange     '3.2.3',
+197 silly addNameRange     '3.2.4',
+197 silly addNameRange     '3.2.5',
+197 silly addNameRange     '3.3.0',
+197 silly addNameRange     '3.3.1',
+197 silly addNameRange     '3.3.2',
+197 silly addNameRange     '3.3.4',
+197 silly addNameRange     '3.4.0',
+197 silly addNameRange     '3.5.0',
+197 silly addNameRange     '3.5.1',
+197 silly addNameRange     '3.5.2',
+197 silly addNameRange     '3.5.5',
+197 silly addNameRange     '3.5.6',
+197 silly addNameRange     '3.6.0',
+197 silly addNameRange     '3.6.1',
+197 silly addNameRange     '3.6.2',
+197 silly addNameRange     '3.7.0',
+197 silly addNameRange     '3.8.0',
+197 silly addNameRange     '3.8.1',
+197 silly addNameRange     '3.8.2',
+197 silly addNameRange     '3.8.3',
+197 silly addNameRange     '3.8.4',
+197 silly addNameRange     '3.8.5',
+197 silly addNameRange     '3.8.6',
+197 silly addNameRange     '3.8.7',
+197 silly addNameRange     '3.8.8',
+197 silly addNameRange     '3.8.9',
+197 silly addNameRange     '3.8.10',
+197 silly addNameRange     '3.8.11',
+197 silly addNameRange     '3.9.0',
+197 silly addNameRange     '3.9.1',
+197 silly addNameRange     '4.0.0',
+197 silly addNameRange     '4.0.1',
+197 silly addNameRange     '4.0.2' ] ]
+198 silly addNamed gulp@4.0.2
+199 verbose addNamed "4.0.2" is a plain semver version for gulp
+200 silly mapToRegistry name gulp
+201 silly mapToRegistry using default registry
+202 silly mapToRegistry registry https://registry.npmjs.org/
+203 silly mapToRegistry uri https://registry.npmjs.org/gulp
+204 verbose addRemoteTarball https://registry.npmjs.org/gulp/-/gulp-4.0.2.tgz not in flight; adding
+205 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp/-/gulp-4.0.2.tgz',
+205 verbose addRemoteTarball   '543651070fd0f6ab0a0650c6a3e6ff5a7cb09caa' ]
+206 info retry fetch attempt 1 at 3:31:22 PM
+207 info attempt registry request try #1 at 3:31:22 PM
+208 http fetch GET https://registry.npmjs.org/gulp/-/gulp-4.0.2.tgz
+209 http fetch 200 https://registry.npmjs.org/gulp/-/gulp-4.0.2.tgz
+210 silly fetchAndShaCheck shasum 543651070fd0f6ab0a0650c6a3e6ff5a7cb09caa
+211 verbose addTmpTarball C:\Users\TSHIAM~1.WIN\AppData\Local\Temp\npm-15804-7e8b5391\registry.npmjs.org\gulp\-\gulp-4.0.2.tgz not in flight; adding
+212 verbose addTmpTarball already have metadata; skipping unpack for gulp@4.0.2
+213 silly cache afterAdd gulp@4.0.2
+214 verbose afterAdd C:\Users\Tshiamo.WIN-P3T4VPK3U1I\AppData\Roaming\npm-cache\gulp\4.0.2\package\package.json not in flight; writing
+215 verbose afterAdd C:\Users\Tshiamo.WIN-P3T4VPK3U1I\AppData\Roaming\npm-cache\gulp\4.0.2\package\package.json written
+216 http 200 https://registry.npmjs.org/gulp-concat
+217 verbose headers { date: 'Sat, 14 Aug 2021 13:31:22 GMT',
+217 verbose headers   'content-type': 'application/json; charset=UTF-8',
+217 verbose headers   'transfer-encoding': 'chunked',
+217 verbose headers   connection: 'keep-alive',
+217 verbose headers   'cf-ray': '67ea8b048a994fd1-JNB',
+217 verbose headers   'cache-control': 'public, max-age=300',
+217 verbose headers   etag: 'W/"ad836ac74041c44c35a3d2c8b844b0cb"',
+217 verbose headers   'last-modified': 'Thu, 02 Aug 2018 09:54:25 GMT',
+217 verbose headers   vary: 'accept-encoding, accept',
+217 verbose headers   'cf-cache-status': 'REVALIDATED',
+217 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+217 verbose headers   server: 'cloudflare',
+217 verbose headers   'content-encoding': 'gzip' }
+218 silly get cb [ 200,
+218 silly get   { date: 'Sat, 14 Aug 2021 13:31:22 GMT',
+218 silly get     'content-type': 'application/json; charset=UTF-8',
+218 silly get     'transfer-encoding': 'chunked',
+218 silly get     connection: 'keep-alive',
+218 silly get     'cf-ray': '67ea8b048a994fd1-JNB',
+218 silly get     'cache-control': 'public, max-age=300',
+218 silly get     etag: 'W/"ad836ac74041c44c35a3d2c8b844b0cb"',
+218 silly get     'last-modified': 'Thu, 02 Aug 2018 09:54:25 GMT',
+218 silly get     vary: 'accept-encoding, accept',
+218 silly get     'cf-cache-status': 'REVALIDATED',
+218 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+218 silly get     server: 'cloudflare',
+218 silly get     'content-encoding': 'gzip' } ]
+219 verbose get saving gulp-concat to C:\Users\Tshiamo.WIN-P3T4VPK3U1I\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-concat\.cache.json
+220 silly resolveWithNewModule gulp-concat@2.6.1 checking installable status
+221 silly cache add args [ 'gulp-concat@*', null ]
+222 verbose cache add spec gulp-concat@*
+223 silly cache add parsed spec Result {
+223 silly cache add   raw: 'gulp-concat@*',
+223 silly cache add   scope: null,
+223 silly cache add   name: 'gulp-concat',
+223 silly cache add   rawSpec: '*',
+223 silly cache add   spec: '*',
+223 silly cache add   type: 'range' }
+224 silly addNamed gulp-concat@*
+225 verbose addNamed "*" is a valid semver range for gulp-concat
+226 silly addNameRange { name: 'gulp-concat', range: '*', hasData: false }
+227 silly mapToRegistry name gulp-concat
+228 silly mapToRegistry using default registry
+229 silly mapToRegistry registry https://registry.npmjs.org/
+230 silly mapToRegistry uri https://registry.npmjs.org/gulp-concat
+231 verbose addNameRange registry:https://registry.npmjs.org/gulp-concat not in flight; fetching
+232 verbose get https://registry.npmjs.org/gulp-concat not expired, no request
+233 silly addNameRange number 2 { name: 'gulp-concat', range: '*', hasData: true }
+234 silly addNameRange versions [ 'gulp-concat',
+234 silly addNameRange   [ '0.0.1',
+234 silly addNameRange     '1.0.0',
+234 silly addNameRange     '1.1.0',
+234 silly addNameRange     '2.0.0',
+234 silly addNameRange     '2.1.0',
+234 silly addNameRange     '2.1.1',
+234 silly addNameRange     '2.1.2',
+234 silly addNameRange     '2.1.3',
+234 silly addNameRange     '2.1.4',
+234 silly addNameRange     '2.1.5',
+234 silly addNameRange     '2.1.6',
+234 silly addNameRange     '2.1.7',
+234 silly addNameRange     '2.2.0',
+234 silly addNameRange     '2.3.0',
+234 silly addNameRange     '2.3.3',
+234 silly addNameRange     '2.3.4',
+234 silly addNameRange     '2.3.5',
+234 silly addNameRange     '2.4.0',
+234 silly addNameRange     '2.4.1',
+234 silly addNameRange     '2.4.2',
+234 silly addNameRange     '2.4.3',
+234 silly addNameRange     '2.5.0',
+234 silly addNameRange     '2.5.1',
+234 silly addNameRange     '2.5.2',
+234 silly addNameRange     '2.6.0',
+234 silly addNameRange     '2.6.1' ] ]
+235 silly addNamed gulp-concat@2.6.1
+236 verbose addNamed "2.6.1" is a plain semver version for gulp-concat
+237 silly mapToRegistry name gulp-concat
+238 silly mapToRegistry using default registry
+239 silly mapToRegistry registry https://registry.npmjs.org/
+240 silly mapToRegistry uri https://registry.npmjs.org/gulp-concat
+241 verbose addRemoteTarball https://registry.npmjs.org/gulp-concat/-/gulp-concat-2.6.1.tgz not in flight; adding
+242 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-concat/-/gulp-concat-2.6.1.tgz',
+242 verbose addRemoteTarball   '633d16c95d88504628ad02665663cee5a4793353' ]
+243 info retry fetch attempt 1 at 3:31:23 PM
+244 info attempt registry request try #1 at 3:31:23 PM
+245 http fetch GET https://registry.npmjs.org/gulp-concat/-/gulp-concat-2.6.1.tgz
+246 http fetch 200 https://registry.npmjs.org/gulp-concat/-/gulp-concat-2.6.1.tgz
+247 http 200 https://registry.npmjs.org/gulp-uglify
+248 verbose headers { date: 'Sat, 14 Aug 2021 13:31:23 GMT',
+248 verbose headers   'content-type': 'application/json',
+248 verbose headers   'transfer-encoding': 'chunked',
+248 verbose headers   connection: 'keep-alive',
+248 verbose headers   'cf-ray': '67ea8b048c964f87-JNB',
+248 verbose headers   'cache-control': 'public, max-age=300',
+248 verbose headers   etag: 'W/"dc404c16a1c9084678c3c02b2b13d59f"',
+248 verbose headers   'last-modified': 'Fri, 01 Mar 2019 19:21:28 GMT',
+248 verbose headers   vary: 'accept-encoding, accept',
+248 verbose headers   'cf-cache-status': 'REVALIDATED',
+248 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+248 verbose headers   server: 'cloudflare',
+248 verbose headers   'content-encoding': 'gzip' }
+249 silly get cb [ 200,
+249 silly get   { date: 'Sat, 14 Aug 2021 13:31:23 GMT',
+249 silly get     'content-type': 'application/json',
+249 silly get     'transfer-encoding': 'chunked',
+249 silly get     connection: 'keep-alive',
+249 silly get     'cf-ray': '67ea8b048c964f87-JNB',
+249 silly get     'cache-control': 'public, max-age=300',
+249 silly get     etag: 'W/"dc404c16a1c9084678c3c02b2b13d59f"',
+249 silly get     'last-modified': 'Fri, 01 Mar 2019 19:21:28 GMT',
+249 silly get     vary: 'accept-encoding, accept',
+249 silly get     'cf-cache-status': 'REVALIDATED',
+249 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+249 silly get     server: 'cloudflare',
+249 silly get     'content-encoding': 'gzip' } ]
+250 verbose get saving gulp-uglify to C:\Users\Tshiamo.WIN-P3T4VPK3U1I\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-uglify\.cache.json
+251 silly fetchAndShaCheck shasum 633d16c95d88504628ad02665663cee5a4793353
+252 verbose addTmpTarball C:\Users\TSHIAM~1.WIN\AppData\Local\Temp\npm-15804-7e8b5391\registry.npmjs.org\gulp-concat\-\gulp-concat-2.6.1.tgz not in flight; adding
+253 verbose addTmpTarball already have metadata; skipping unpack for gulp-concat@2.6.1
+254 silly resolveWithNewModule gulp-uglify@3.0.2 checking installable status
+255 silly cache add args [ 'gulp-uglify@*', null ]
+256 verbose cache add spec gulp-uglify@*
+257 silly cache add parsed spec Result {
+257 silly cache add   raw: 'gulp-uglify@*',
+257 silly cache add   scope: null,
+257 silly cache add   name: 'gulp-uglify',
+257 silly cache add   rawSpec: '*',
+257 silly cache add   spec: '*',
+257 silly cache add   type: 'range' }
+258 silly addNamed gulp-uglify@*
+259 verbose addNamed "*" is a valid semver range for gulp-uglify
+260 silly addNameRange { name: 'gulp-uglify', range: '*', hasData: false }
+261 silly mapToRegistry name gulp-uglify
+262 silly mapToRegistry using default registry
+263 silly mapToRegistry registry https://registry.npmjs.org/
+264 silly mapToRegistry uri https://registry.npmjs.org/gulp-uglify
+265 verbose addNameRange registry:https://registry.npmjs.org/gulp-uglify not in flight; fetching
+266 verbose get https://registry.npmjs.org/gulp-uglify not expired, no request
+267 silly addNameRange number 2 { name: 'gulp-uglify', range: '*', hasData: true }
+268 silly addNameRange versions [ 'gulp-uglify',
+268 silly addNameRange   [ '0.0.1',
+268 silly addNameRange     '0.0.3',
+268 silly addNameRange     '0.0.4',
+268 silly addNameRange     '0.1.0',
+268 silly addNameRange     '0.2.0',
+268 silly addNameRange     '0.2.1',
+268 silly addNameRange     '0.3.0',
+268 silly addNameRange     '0.3.1',
+268 silly addNameRange     '0.3.2',
+268 silly addNameRange     '1.0.0-0',
+268 silly addNameRange     '1.0.0',
+268 silly addNameRange     '1.0.1',
+268 silly addNameRange     '1.0.2',
+268 silly addNameRange     '1.1.0',
+268 silly addNameRange     '1.2.0',
+268 silly addNameRange     '1.3.0',
+268 silly addNameRange     '1.4.0',
+268 silly addNameRange     '1.4.1',
+268 silly addNameRange     '1.4.2',
+268 silly addNameRange     '1.5.1',
+268 silly addNameRange     '1.5.2',
+268 silly addNameRange     '1.5.3',
+268 silly addNameRange     '1.5.4',
+268 silly addNameRange     '2.0.0',
+268 silly addNameRange     '2.0.1',
+268 silly addNameRange     '2.1.0',
+268 silly addNameRange     '2.1.1',
+268 silly addNameRange     '2.1.2',
+268 silly addNameRange     '3.0.0',
+268 silly addNameRange     '3.0.1',
+268 silly addNameRange     '3.0.2' ] ]
+269 silly addNamed gulp-uglify@3.0.2
+270 verbose addNamed "3.0.2" is a plain semver version for gulp-uglify
+271 silly cache afterAdd gulp-concat@2.6.1
+272 verbose afterAdd C:\Users\Tshiamo.WIN-P3T4VPK3U1I\AppData\Roaming\npm-cache\gulp-concat\2.6.1\package\package.json not in flight; writing
+273 silly mapToRegistry name gulp-uglify
+274 silly mapToRegistry using default registry
+275 silly mapToRegistry registry https://registry.npmjs.org/
+276 silly mapToRegistry uri https://registry.npmjs.org/gulp-uglify
+277 verbose addRemoteTarball https://registry.npmjs.org/gulp-uglify/-/gulp-uglify-3.0.2.tgz not in flight; adding
+278 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-uglify/-/gulp-uglify-3.0.2.tgz',
+278 verbose addRemoteTarball   '5f5b2e8337f879ca9dec971feb1b82a5a87850b0' ]
+279 info retry fetch attempt 1 at 3:31:23 PM
+280 info attempt registry request try #1 at 3:31:23 PM
+281 http fetch GET https://registry.npmjs.org/gulp-uglify/-/gulp-uglify-3.0.2.tgz
+282 verbose afterAdd C:\Users\Tshiamo.WIN-P3T4VPK3U1I\AppData\Roaming\npm-cache\gulp-concat\2.6.1\package\package.json written
+283 http 200 https://registry.npmjs.org/gulp-imagemin
+284 verbose headers { date: 'Sat, 14 Aug 2021 13:31:23 GMT',
+284 verbose headers   'content-type': 'application/json',
+284 verbose headers   'transfer-encoding': 'chunked',
+284 verbose headers   connection: 'keep-alive',
+284 verbose headers   'cf-ray': '67ea8b04896f0552-JNB',
+284 verbose headers   'cache-control': 'public, max-age=300',
+284 verbose headers   etag: 'W/"ae9d70774e1a22c71fde0832df40dc88"',
+284 verbose headers   'last-modified': 'Thu, 12 Aug 2021 15:49:20 GMT',
+284 verbose headers   vary: 'accept-encoding, accept',
+284 verbose headers   'cf-cache-status': 'REVALIDATED',
+284 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+284 verbose headers   'x-amz-replication-status': 'COMPLETED',
+284 verbose headers   server: 'cloudflare',
+284 verbose headers   'content-encoding': 'gzip' }
+285 silly get cb [ 200,
+285 silly get   { date: 'Sat, 14 Aug 2021 13:31:23 GMT',
+285 silly get     'content-type': 'application/json',
+285 silly get     'transfer-encoding': 'chunked',
+285 silly get     connection: 'keep-alive',
+285 silly get     'cf-ray': '67ea8b04896f0552-JNB',
+285 silly get     'cache-control': 'public, max-age=300',
+285 silly get     etag: 'W/"ae9d70774e1a22c71fde0832df40dc88"',
+285 silly get     'last-modified': 'Thu, 12 Aug 2021 15:49:20 GMT',
+285 silly get     vary: 'accept-encoding, accept',
+285 silly get     'cf-cache-status': 'REVALIDATED',
+285 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+285 silly get     'x-amz-replication-status': 'COMPLETED',
+285 silly get     server: 'cloudflare',
+285 silly get     'content-encoding': 'gzip' } ]
+286 verbose get saving gulp-imagemin to C:\Users\Tshiamo.WIN-P3T4VPK3U1I\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-imagemin\.cache.json
+287 verbose stack Error: Missing required argument #1
+287 verbose stack     at andLogAndFinish (C:\Program Files\nodejs\node_modules\npm\lib\fetch-package-metadata.js:31:3)
+287 verbose stack     at fetchPackageMetadata (C:\Program Files\nodejs\node_modules\npm\lib\fetch-package-metadata.js:51:22)
+287 verbose stack     at resolveWithNewModule (C:\Program Files\nodejs\node_modules\npm\lib\install\deps.js:445:12)
+287 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install\deps.js:446:7
+287 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\iferr\index.js:13:50
+287 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\fetch-package-metadata.js:37:12
+287 verbose stack     at addRequestedAndFinish (C:\Program Files\nodejs\node_modules\npm\lib\fetch-package-metadata.js:82:5)
+287 verbose stack     at returnAndAddMetadata (C:\Program Files\nodejs\node_modules\npm\lib\fetch-package-metadata.js:117:7)
+287 verbose stack     at pickVersionFromRegistryDocument (C:\Program Files\nodejs\node_modules\npm\lib\fetch-package-metadata.js:134:20)
+287 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\iferr\index.js:13:50
+288 verbose cwd C:\xampp2\htdocs\react\nodejs-express-sequelize-mysql-master\nodejs-express-sequelize-mysql-master
+289 error Windows_NT 10.0.14393
+290 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "node" "14"
+291 error node v5.5.0
+292 error npm  v3.3.12
+293 error code EMISSINGARG
+294 error typeerror Error: Missing required argument #1
+294 error typeerror     at andLogAndFinish (C:\Program Files\nodejs\node_modules\npm\lib\fetch-package-metadata.js:31:3)
+294 error typeerror     at fetchPackageMetadata (C:\Program Files\nodejs\node_modules\npm\lib\fetch-package-metadata.js:51:22)
+294 error typeerror     at resolveWithNewModule (C:\Program Files\nodejs\node_modules\npm\lib\install\deps.js:445:12)
+294 error typeerror     at C:\Program Files\nodejs\node_modules\npm\lib\install\deps.js:446:7
+294 error typeerror     at C:\Program Files\nodejs\node_modules\npm\node_modules\iferr\index.js:13:50
+294 error typeerror     at C:\Program Files\nodejs\node_modules\npm\lib\fetch-package-metadata.js:37:12
+294 error typeerror     at addRequestedAndFinish (C:\Program Files\nodejs\node_modules\npm\lib\fetch-package-metadata.js:82:5)
+294 error typeerror     at returnAndAddMetadata (C:\Program Files\nodejs\node_modules\npm\lib\fetch-package-metadata.js:117:7)
+294 error typeerror     at pickVersionFromRegistryDocument (C:\Program Files\nodejs\node_modules\npm\lib\fetch-package-metadata.js:134:20)
+294 error typeerror     at C:\Program Files\nodejs\node_modules\npm\node_modules\iferr\index.js:13:50
+294 error typeerror This is an error with npm itself. Please report this error at:
+294 error typeerror     <http://github.com/npm/npm/issues>
+295 verbose exit [ 1, true ]
